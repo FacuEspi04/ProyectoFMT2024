@@ -16,6 +16,9 @@
 <p>Contacto: Un formulario de contacto sencillo.</p>
 <p>Footer: Contendrá enlaces a redes sociales y medios de contacto.</p>
 
+<h2>Enfoque utilizado</h2>
+<p>El enfoque utilizado para la implementación de resposive fue Mobile First. Este enfoque de desarrollo y diseño web prioriza el diseño y el desarrollo para dispositivos móviles antes que el diseño y desarrollo para pantallas de escritorio.</p>
+
 <h2>Enlace al Portafolio</h2>
 <p>Puedes ver el portafolio completo y funcional en el siguiente enlace:https://main--chipper-sunflower-e59c05.netlify.app/</p>
 

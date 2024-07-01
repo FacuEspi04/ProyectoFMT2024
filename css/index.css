@@ -144,7 +144,7 @@ a:hover {
 }
 
 .buttonPS {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   gap: 1em;
   .contact {
@@ -210,8 +210,8 @@ p {
   align-items: center;
   grid-template-columns: repeat(2, minmax(50px, 1fr)); /* Tres columnas */
 
-  gap: 16px;
-  justify-items: center;
+  gap: 24px;
+  /*justify-items: center;*/
 }
 
 .card {
@@ -219,6 +219,7 @@ p {
   /* padding: 8px 8px 16px 8px; */
   padding: 16px 8px;
   background-color: #142935;
+  border-color: tomato;
 
   cursor: pointer;
   align-items: center;
@@ -244,13 +245,27 @@ p {
   max-width: 100px;
 }
 
+.buttonSkills {
+  display: inline-block;
+  width: 60px;
+  background-color: #00adb5;
+  color: white;
+  border-color: #00adb5;
+  border-radius: 10px;
+  font-size: medium;
+  text-wrap: nowrap;
+  padding: 8px;
+  border: none;
+  transition: background-color 1s, color 1s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 h1 {
   color: #eeeeee;
 }
 
 /* MY PROYECTS */
 .myProyects {
-  display: flex;
+  display: grid;
   flex-direction: column;
   gap: 16px;
   justify-content: center;
@@ -312,9 +327,8 @@ h1 {
 
 /* FORM */
 .formProyect {
-  height: 100vh;
-  padding-top: 42px;
-  display: flex;
+  padding-top: 240px;
+  display: grid;
   flex-direction: column;
   gap: 32px;
 
@@ -390,7 +404,7 @@ textarea {
   border: none;
   transition: background-color 1s, color 1s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  width: 100%;
+  width: 80%;
   padding: 8px;
   margin-top: 20px;
 }
@@ -421,6 +435,7 @@ footer {
     flex-wrap: nowrap;
     text-wrap: nowrap;
   }
+  
 }
 
 .list-nav {
@@ -447,6 +462,11 @@ footer section a i {
   div {
     display: flex;
     gap: 16px;
+  }
+  h4{
+    display: flex;
+    font-size:medium;
+    font-weight: 400;
   }
 }
 

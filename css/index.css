@@ -144,9 +144,10 @@ a:hover {
 }
 
 .buttonPS {
-  /*display: flex;*/
+  display: flex;
   justify-content: center;
   gap: 1em;
+  justify-items: center;
   .contact {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
@@ -154,7 +155,7 @@ a:hover {
 
 /* ABOUT ME */
 .aboutMeSection {
-  height: 100vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -191,6 +192,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  height: 40vh;
 }
 
 .myServicesText {
@@ -279,6 +281,8 @@ h1 {
   align-items: flex-start;
   text-shadow: 2px 2px 4px rgba(231, 222, 222, 0.5);
   font-weight: 700;
+  margin-bottom: auto;
+  margin-top:100%;
 }
 
 .cardImgPr {
@@ -293,11 +297,13 @@ h1 {
 .buttonProyect {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 8px;
-
+  margin-top: auto;
+  margin-bottom: auto;
   .contact {
     width: auto;
+    height: 32px;
   }
 }
 

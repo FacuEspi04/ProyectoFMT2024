@@ -18,9 +18,16 @@ li {
   width: 90%;
   margin: 0 auto;
   max-width: 1440px;
+  /* Estilos para separar cada sección. */
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
 }
 
 /* EN PANTALLAS DE 0 a 320px */
+::selection{
+  background-color: rgba(0, 172, 181, 0.452);
+}
 
 html,
 body {
@@ -40,6 +47,10 @@ body {
 /* HEADER */
 header {
   /* background-color: #121212; */
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1440px;
+
   padding: 12px 0;
   color: white;
   display: flex;
@@ -108,7 +119,7 @@ a:hover {
 
 /*SECCION PRINCIPAL */
 .hero {
-  min-height: 90vh;
+  min-height: 80vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -155,7 +166,7 @@ a:hover {
 
 /* ABOUT ME */
 .aboutMeSection {
-  height: 60vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -171,12 +182,13 @@ a:hover {
   align-items: flex-start;
   gap: 40px;
   text-shadow: 2px 2px 4px rgba(231, 222, 222, 0.5);
+
 }
 
 p {
   color: white;
   text-shadow: none;
-  font-weight: 500;
+  font-size: medium;
 }
 
 .imagen-about-me {
@@ -192,7 +204,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  height: 40vh;
+  min-height: 40vh;
 }
 
 .myServicesText {
@@ -200,6 +212,7 @@ p {
   justify-content: space-evenly;
   text-align: center;
   align-items: flex-start;
+  margin-bottom: 24px;
   text-shadow: 2px 2px 4px rgba(231, 222, 222, 0.5);
   font-size: 20px;
   font-weight: 700;
@@ -270,9 +283,8 @@ h1 {
   display: grid;
   flex-direction: column;
   gap: 16px;
-  justify-content: center;
-  padding-top: 32px;
-  height: 100vh;
+  /* justify-content: center; */
+ 
 }
 
 .myProyectsText {
@@ -281,8 +293,6 @@ h1 {
   align-items: flex-start;
   text-shadow: 2px 2px 4px rgba(231, 222, 222, 0.5);
   font-weight: 700;
-  margin-bottom: auto;
-  margin-top:100%;
 }
 
 .cardImgPr {
@@ -299,8 +309,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 8px;
-  margin-top: auto;
-  margin-bottom: auto;
+ 
   .contact {
     width: auto;
     height: 32px;
@@ -333,7 +342,6 @@ h1 {
 
 /* FORM */
 .formProyect {
-  padding-top: 240px;
   display: grid;
   flex-direction: column;
   gap: 32px;
@@ -369,6 +377,10 @@ label {
   margin-bottom: 5px;
   color: #eeeeee;
   font-size: medium;
+}
+
+button {
+  cursor: pointer;
 }
 
 input,
@@ -410,7 +422,7 @@ textarea {
   border: none;
   transition: background-color 1s, color 1s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  width: 80%;
+  width: 100%;
   padding: 8px;
   margin-top: 20px;
 }
@@ -422,26 +434,26 @@ textarea {
 .formButton:hover {
   background-color: whitesmoke;
   color: #00adb5;
+
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* FOOTER */
 footer {
-  margin-top: 40px;
   padding: 20px 0;
+  width: 90%;
+  margin: 60px auto;
+
   display: flex;
   flex-direction: column;
   gap: 16px;
-
   color: white;
-  width: 100%;
 
   li {
     display: flex;
     flex-wrap: nowrap;
     text-wrap: nowrap;
   }
-  
 }
 
 .list-nav {
@@ -465,13 +477,14 @@ footer section a i {
   justify-content: space-around;
   align-items: center;
   gap: 8px;
+  margin-top: 32px;
   div {
     display: flex;
     gap: 16px;
   }
-  h4{
+  h4 {
     display: flex;
-    font-size:medium;
+    font-size: medium;
     font-weight: 400;
   }
 }

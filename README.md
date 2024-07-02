@@ -20,7 +20,7 @@
 <p>El enfoque utilizado para la implementación de resposive fue Mobile First. Este enfoque de desarrollo y diseño web prioriza el diseño y el desarrollo para dispositivos móviles antes que el diseño y desarrollo para pantallas de escritorio.</p>
 
 <h2>Enlace al Portafolio</h2>
-<p>Puedes ver el portafolio completo y funcional en el siguiente enlace:https://main--chipper-sunflower-e59c05.netlify.app/</p>
+<p>Puedes ver el portafolio completo y funcional en el siguiente enlace: https://facuespi04.github.io/ProyectoFMT2024/</p>
 
 <h2>Enlace del Portfolio replicado de Behance</h2>
 <p>https://www.behance.net/gallery/197932891/Personal-Portfolio-Website?tracking_source=search_projects%7Cpersonal+website+portfolio&l=21&log_shim_removal=1</p>

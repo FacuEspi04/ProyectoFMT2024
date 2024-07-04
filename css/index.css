@@ -163,7 +163,7 @@ a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     width: auto;
   .a {
-    width: auto;
+    width: 100px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   }

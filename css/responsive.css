@@ -44,6 +44,9 @@ Si lo usas así como esta tendrías que repetir ciertas reglas css. Por ejemplo:
     .contact {
       width: auto;
     }
+    a {
+      width: auto;
+    }
   }
 
   .imagenPrincipal {

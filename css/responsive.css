@@ -41,6 +41,9 @@ Si lo usas así como esta tendrías que repetir ciertas reglas css. Por ejemplo:
 
   .buttonPS {
     justify-content: start;
+    .contact {
+      width: auto;
+    }
   }
 
   .imagenPrincipal {
